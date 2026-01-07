@@ -54,10 +54,6 @@ body {
 
 /* section 2 */
 
-.section-2 {
-    /* border: 2px solid red; */
-}
-
 .container-2 {
     padding: 0 150px;
     /* border: 2px solid red; */
@@ -96,4 +92,90 @@ body {
 .lists {
     color: gray;
     width: 349px;
+}
+
+/* section - 3 */
+
+.section-3 {
+    padding-top: 150px;
+}
+
+.container-3 {
+    /* border: 1px solid black; */
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.container-3 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.plan-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 34px;
+}
+
+.plan-card {
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.plan-card h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.plan-card p {
+    font-size: 25px;
+    color: gray;
+    font-weight: 500;
+    margin: 16px 46px 0;
+}
+
+/* section-4 */
+
+.section-4 {
+    /* border: 1px solid orange; */
+    padding: 130px 0;
+}
+
+.card-container {
+    /* border: 1px solid red; */
+    max-width: 70%;
+    margin: 0 auto;
+    background: url("/images/gradient2.png"), url("/images/watch.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 55px;
+    border-radius: 10px;
+}
+
+.card-content {
+    max-width: 460px;
+    text-align: start;
+}
+
+.card-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn-2 {
+    padding: 20px 36px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
 }
