@@ -150,7 +150,7 @@ body {
     /* border: 1px solid red; */
     max-width: 70%;
     margin: 0 auto;
-    background: url("/images/gradient2.png"), url("../images/watch.png");
+    background: url("../images/gradient2.png"), url("../images/watch.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
